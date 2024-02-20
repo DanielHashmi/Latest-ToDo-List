@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: ease-in-out all .5s;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background: linear-gradient(45deg, #00796f, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 3rem;
+}
+
+.all {
+    color: rgb(0, 138, 145);
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.active {
+    color: red;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.completed {
+    color: rgb(33, 153, 0);
+    font-weight: bold;
+    font-family: cursive;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: cadetblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contHead div {
+    cursor: pointer;
+    border-bottom: 7px solid rgb(255 255 255 / 71%);
+}
+
+.contHead {
+    display: flex;
+    gap: 8rem;
+    font-size: 2rem;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(193, 193, 193);
+}
+
+.inpSec button {
+    padding: 1.4rem 2rem;
+    border: 1px solid rgb(210, 203, 203);
+    background-color: cadetblue;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: .8rem;
+    cursor: pointer;
+}
+
+.inpSec input {
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(210, 203, 203);
+    background-color: rgba(247, 247, 247, 0.426);
+    width: 50rem;
+    height: 4rem;
+    font-size: 1.4rem;
+}
+
+.box .icon {
+    cursor: pointer;
+}
+
+.box button {
+    padding: 1rem 1.3rem;
+    background-color: rgb(212, 0, 0);
+    color: white;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.delBtn {
+    display: none;
+}
+
+::placeholder {
+    color: white;
+}
+
+.boxes .box {
+    border-top: 1px solid rgb(210, 203, 203);
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    font-size: 2rem;
+    align-items: center;
+    padding: 2rem;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    max-height: 32rem;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0.048);
+    width: .3rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.29);
+    border-radius: 5rem;
+}
+
+.savColor {
+    background-color: rgb(132 93 229);
+    filter: invert(1);
+    border-radius: 7px;
+}
