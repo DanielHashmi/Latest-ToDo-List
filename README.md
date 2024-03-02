@@ -11,4 +11,4 @@ This is a Latest to-do list application written in TypeScript. It allows you to 
 
 ## Usage
 
-<a href="https://danielhashmi.github.io/Latest-ToDo-List/">Click here to use the App</a>
+<a href="https://to-do-list-by-dh.freewebhostmost.com/">Click here to use the App</a>
