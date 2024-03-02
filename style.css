@@ -54,7 +54,7 @@ header h1 {
 
 .contHead {
     display: flex;
-    gap: 8rem;
+    gap: 8vw;
     font-size: 2rem;
     justify-content: space-around;
     border-bottom: 1px solid rgb(193, 193, 193);
@@ -76,7 +76,7 @@ header h1 {
     border-radius: .5rem;
     border: 1px solid rgb(210, 203, 203);
     background-color: rgba(247, 247, 247, 0.426);
-    width: 50rem;
+    width: 50vw;
     height: 4rem;
     font-size: 1.4rem;
 }
@@ -105,10 +105,18 @@ header h1 {
     border-top: 1px solid rgb(210, 203, 203);
     display: flex;
     justify-content: center;
-    gap: 10rem;
     font-size: 2rem;
     align-items: center;
     padding: 2rem;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.inpSec {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
 }
 
 .boxes {
